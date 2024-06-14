@@ -9,4 +9,4 @@ const productSchema = new mongoose.Schema({
     p_desc: String
 })
 
-module.exports = mongoose.model("Product", productSchema)
+module.exports = mongoose.model("Product", productSchema,"productsdata")

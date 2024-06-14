@@ -17,7 +17,7 @@ app.use(bodyparser.urlencoded({ extended: false }))
 app.use(cors())
 
 //connect to mongodb
-mongoose.connect(url, { dbName: "MiniProject" })
+mongoose.connect(url, { dbName: "project" })
     .then(() => {
         console.log('Connection Success')
     }, (errRes) => {

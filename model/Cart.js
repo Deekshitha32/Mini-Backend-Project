@@ -9,4 +9,4 @@ const cartSchema = new mongoose.Schema({
     u_name: String
 })
 
-module.exports = mongoose.model("Cart", cartSchema)
+module.exports = mongoose.model("Cart", cartSchema,"carts")
