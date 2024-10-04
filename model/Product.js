@@ -1,3 +1,4 @@
+//model/Product.js
 const mongoose = require('mongoose')
 
 const productSchema = new mongoose.Schema({
@@ -9,4 +10,4 @@ const productSchema = new mongoose.Schema({
     p_desc: String
 })
 
-module.exports = mongoose.model("Product", productSchema,"productsdata")
+module.exports = mongoose.model("Product", productSchema,"products")

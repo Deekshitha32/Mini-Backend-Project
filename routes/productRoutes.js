@@ -1,3 +1,4 @@
+//productRoutes.js
 //import express module
 const express = require('express')
 //create router instance
